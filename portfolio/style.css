@@ -1,3 +1,4 @@
+
 .contato{
     background-color: black;
   color:white;
@@ -14,4 +15,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+* {
+    margin:0px;
+    padding:0px;
+}
+/*css vem aqui em baixo*/
+header { 
+    background-color: rgb(160, 187, 160);
+    padding: 20px 5px;
+    
+
+}
+body a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+body a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: blue;
+    
+    
 }
