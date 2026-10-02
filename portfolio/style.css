@@ -1,60 +1,70 @@
-
-.contato{
-    background-color: black;
-  color:white;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.mim{
+body { 
+    background-color: #dedede;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --- MODO ESCURO CORRIGIDO --- */
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+/* Ajusta as caixas/seções para ficarem visíveis no modo escuro */
+body.dark-mode header {
+    background-color: #1f2937;
+}
+
+body.dark-mode h1, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5 {
+    color: #38bdf8; /* Azul claro para destacar no escuro */
+}
+
+body.dark-mode section {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+body.dark-mode footer {
+    background-color: #0b0f19;
+}
+
+/* Resto dos seus estilos originais */
+.mim {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: rgb(10, 232, 240);
 }
 
-.info{
-    
+.info {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-* {
-    margin:0px;
-    padding:0px;
-    box-sizing: border-box;
-}
-/*css vem aqui em baixo*/
+
 header { 
     background-color: rgb(131, 164, 235);
     padding: 15px 5px;
-    
-
-}
-body a {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-    background-color: #f4f4f4;
-    line-height: 1,6;
-
 }
 
-h1{
-
+h1 {
     text-align: center;
     margin-top: 45px;
     color: #074f97;
 }
 
-body a:hover{
-    text-decoration: underline;
-    font-weight: bold;
-    color: blue;
-    
-    
-}
-
 #apres img {
     width: 80px;
-    
 }
+
 ul { 
     display: flex;
     gap: 10px;
@@ -62,6 +72,7 @@ ul {
     padding: 0;
     margin: 0;
 }
+
 ul li svg,
 ul a svg {
     width: 30px;
